@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# change to the user's home directory
+cd ~
