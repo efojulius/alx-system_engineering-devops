@@ -9,8 +9,8 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "http://localhost:8080",
+            "url": "/tmp/correction/9299350095421773533801589643795285845763_5/205/260901/0x00-shell_basics",
             "webRoot": "${workspaceFolder}"
         }
     ]
-}
+}   
