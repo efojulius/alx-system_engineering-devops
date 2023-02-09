@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Current directory:" | ls -al . | echo "/boot directory:" ls -al /boot
+echo "/boot directory:" ls -al /boot
