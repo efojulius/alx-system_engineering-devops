@@ -1,0 +1,2 @@
+#!/bin/bash
+decimal=$DECIMAL; hex=$(printf "%x" $decimal); echo $hex
