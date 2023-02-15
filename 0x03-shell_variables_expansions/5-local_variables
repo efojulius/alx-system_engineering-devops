@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "Local variables:"| declare -p | grep -v 'declare -[aA]' | cut -d ' ' -f 3; echo "Environment variables:"| env | cut -d '=' -f 1; echo "Functions:"| declare -F | cut -d ' ' -f 3
