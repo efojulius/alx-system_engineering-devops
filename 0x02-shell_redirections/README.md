@@ -1,0 +1,1 @@
+This script is going to help locate your current working directory
