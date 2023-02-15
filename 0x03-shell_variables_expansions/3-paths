@@ -1,2 +1,2 @@
 #!/bin/bash
-DIRS=$(echo "$PATH" | tr ':' '\n' | grep -v "^$" | xargs -I {} sh -c 'if [ -d "{}" ]| then echo "{}"; fi' | wc -l) | echo "There are $DIRS directories in the PATH."
+DIRS=$(echo "$PATH" | tr ':' '\n' | grep -v "^$" | xargs -I {} sh -c 'if [ -d "{}" ]| then echo "{}"| fi' | wc -l) | echo "There are $DIRS directories in the PATH."
