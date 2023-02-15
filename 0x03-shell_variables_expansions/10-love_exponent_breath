@@ -1,2 +1,2 @@
 #!/bin/bash
-result=$(echo "scale=2; $BREATH ^ $LOVE" | bc) echo "${result}\n"
+result=$(echo "scale=2| $BREATH ^ $LOVE" | bc) echo "${result}\n"
